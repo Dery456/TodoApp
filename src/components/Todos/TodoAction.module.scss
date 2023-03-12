@@ -1,0 +1,11 @@
+.ActionButton {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 70%;
+}
+
+.notActive {
+  display: none;
+  background-color: gray;
+}

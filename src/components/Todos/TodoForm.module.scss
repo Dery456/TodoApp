@@ -1,0 +1,36 @@
+.TodoForm {
+  width: 40%;
+  margin: 30px auto;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoInput {
+  width: 70%;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+
+  font-size: 20px;
+}
+
+.inputBtn {
+  background-color: black;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  transition: transform, background-color 0.2s ease;
+
+  &:hover {
+    background-color: gray;
+    color: black;
+    transform: scale(1.07);
+  }
+}

@@ -1,0 +1,47 @@
+.todoItem {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #112d49;
+  color: whitesmoke;
+
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.5s ease;
+}
+
+.TodoBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 10%;
+}
+
+.closeBtn {
+  color: white;
+  transition: background-color 0.6s ease;
+  &:hover {
+    color: crimson;
+  }
+}
+
+.button {
+  cursor: pointer;
+  width: 50%;
+}
+
+.complite {
+  background-color: rgba($color: #112d49, $alpha: 0.7);
+  transform: scale(0.9);
+}
+
+.listTodo {
+  font-size: 20px;
+  color: lightslategray;
+  margin: 0 2vh 0 4vh;
+}
